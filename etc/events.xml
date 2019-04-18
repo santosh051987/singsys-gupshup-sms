@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * @category   Singsys
+ * @package    Singsys_SmsGupshup
+ * @author     santosh@singsys.com
+ * @website    http://www.singsys.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="customer_register_mobile_success">
+        <observer name="customer_register_send_otp" instance="Singsys\SmsGupshup\Observer\SendOtpObserver"/>
+    </event>
+</config>
