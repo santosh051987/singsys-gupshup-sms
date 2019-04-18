@@ -18,7 +18,7 @@
  * @copyright   Copyright (c) 2009 Singsys (http://www.singsys.com/)
  * @license     https://www.singsys.com/LICENSE.txt
  */
-namespace Mageplaza\Osc\Helper;
+namespace Singsys\SmsGupshup\Helper;
 
 use Magento\Framework\App\Helper\Context;
 use Magento\Framework\App\ObjectManager;
